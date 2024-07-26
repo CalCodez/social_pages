@@ -15,6 +15,15 @@
 	--ig-forgot--text: #003768;
 	--ig-placeholder-gray: #737373;
 
+	--ig-bg-blue: #405de6;
+	--ig-bg-dark-pink: #c13584;
+	--ig-bg-red: #fd1d1d;
+	--ig-bg-purple: #833ab4;
+	--ig-bg-purple-red: #e1306c;
+	--ig-bg-yellow: #fcaf45;
+	--ig-bg-orange: #f77737;
+	--ig-bg-light-yellow: #ffdc80;
+
 	--threads-input-gray: #1e1e1e;
 	--threads-placeholder-text: #777777;
 }
@@ -40,10 +49,12 @@ html {
 body {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	background-color: #000;
 	width: 90vw;
 	height: auto;
+	row-gap: 30px;
 }
 
 a {
@@ -105,4 +116,44 @@ h1 {
 	color: #000;
 	filter: drop-shadow(2px 1px 1px var(--project-red));
 	font-size: 20px;
+}
+
+.social-containers {
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	outline: 1px solid yellow;
+	height: 500px;
+}
+
+.fb-container {
+	background-image: linear-gradient(
+		to right,
+		var(--fb-logo-blue),
+		var(--fb-font-shadow),
+		var(--fb-logo-blue)
+	);
+}
+
+.ig-container {
+	background-image: linear-gradient(
+		to right,
+		var(--ig-bg-blue),
+		var(--ig-bg-dark-pink),
+		var(--ig-bg-red),
+		var(--ig-bg-purple),
+		var(--ig-bg-purple-red),
+		var(--ig-bg-yellow),
+		var(--ig-bg-orange),
+		var(--ig-bg-light-yellow)
+	);
+}
+
+.threads-container {
+	background-image: linear-gradient(
+		to right,
+		var(--threads-input-gray),
+		var(--threads-placeholder-text),
+		#000
+	);
 }
