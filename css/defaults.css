@@ -1,0 +1,43 @@
+:root {
+	--fb-bg-white: #f0f2f5;
+	--fb-logo-blue: #0866ff;
+	--fb-font-blue: #4866ff;
+	--fb-font-shadow: #70caff;
+	--fb-placeholder-gray: #90949c;
+	--fb-newAccount-button: #42b72a;
+
+	--ig-button-blue: #4cb5f9;
+	--ig-singup-blue: #4295f6;
+	--ig-fb-login-blue: #385185;
+	--ig-forgot--text: #003768;
+	--ig-placeholder-gray: #737373;
+
+	--threads-input-gray: #1e1e1e;
+	--threads-placeholder-text: #777777;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+}
+
+html {
+	display: flex;
+	justify-content: center;
+	padding: 8px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
