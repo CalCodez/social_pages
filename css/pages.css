@@ -1,0 +1,126 @@
+/* ?? Facebook Styles */
+.body-facebook {
+	background-color: var(--fb-bg-white);
+	justify-content: center;
+	align-items: center;
+}
+
+.body-facebook p {
+	color: var(--fb-logo-blue);
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.body-facebook .fb-login-container {
+	width: 100%;
+	height: 500px;
+	justify-content: center;
+	align-self: center;
+	outline: 1px solid yellow;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+}
+
+.fb-login-form {
+	width: 350px;
+	height: 350px;
+	outline: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 2px var(--fb-placeholder-gray);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 15px;
+	background-color: var(--white);
+}
+
+.fb-login-form p {
+	color: #000;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.fb-login-form input {
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 8px;
+	border: 0.1px solid var(--fb-placeholder-gray);
+}
+
+.fb-login-form input::placeholder {
+	color: var(--fb-placeholder-gray);
+	font-size: 1.1em;
+	font-weight: 520;
+	padding-left: 15px;
+}
+
+.fb-login-form .fb-login-btn {
+	outline: 1px solid yellow;
+	width: 100%;
+	height: 50px;
+	background-color: var(--fb-logo-blue);
+	color: var(--white);
+	justify-content: center;
+	align-items: center;
+	font-size: 1.1rem;
+	font-weight: 550;
+	border-radius: 8px;
+	border: none;
+	margin: 10px 0;
+}
+
+.fb-login-form .fb-forgot-text {
+	color: var(--fb-font-blue);
+	margin-bottom: 10px;
+}
+.hr-text {
+	line-height: 1.5em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	color: black;
+	text-align: center;
+	height: 1.5em;
+	opacity: 1;
+	&:before {
+		content: '';
+		background: linear-gradient(to right, #818078, #818078, #818078);
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		height: 1px;
+	}
+	&:after {
+		content: attr(data-content);
+		position: relative;
+		display: inline-block;
+		color: black;
+
+		padding: 0 0.5em;
+		line-height: 1.5em;
+		color: #818078;
+		background-color: var(--white);
+	}
+}
+
+.fb-login-form .fb-create-new-btn {
+	margin-top: 10px;
+	justify-content: center;
+	align-items: center;
+	/*justify-self: center;*/
+	width: 50%;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: var(--fb-newAccount-button);
+	color: var(--white);
+	margin-left: 25%;
+}
+
+.body-facebook footer {
+	background-color: #000;
+}
