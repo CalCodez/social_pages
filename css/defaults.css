@@ -10,11 +10,13 @@
 	--fb-placeholder-gray: #90949c;
 	--fb-newAccount-button: #42b72a;
 
+	--ig-logo-black: #262626;
 	--ig-button-blue: #4cb5f9;
 	--ig-singup-blue: #4295f6;
 	--ig-fb-login-blue: #385185;
-	--ig-forgot--text: #003768;
-	--ig-placeholder-gray: #737373;
+	--ig-forgot-text: #003768;
+	--ig-placeholder-text: #737373;
+	--ig-placeholder-bg: #fafafa;
 
 	--ig-bg-blue: #405de6;
 	--ig-bg-dark-pink: #c13584;
@@ -62,9 +64,10 @@ body {
 	padding: 10px;
 }
 
-.page-nav-container {
-	width: 100%;
-	justify-content: space-evenly;
+.links-container {
+	justify-content: space-around;
+	width: 800px;
+	height: 40px;
 	align-items: center;
 }
 

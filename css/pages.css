@@ -12,19 +12,12 @@
 	padding: 10px 0;
 }
 
-.body-facebook .links-container {
-	justify-content: space-around;
-	width: 800px;
-	height: 40px;
-	align-items: center;
-}
-
 .body-facebook .links-container a:hover {
 	transform: scale(1.09);
 }
 
 .body-facebook .profile-pic-container {
-	box-shadow: 2px 2px 8px 2px var(--fb-logo-blue);
+	box-shadow: none;
 }
 
 .body-facebook .fa-house,
@@ -112,7 +105,7 @@
 	opacity: 1;
 	&:before {
 		content: '';
-		background: linear-gradient(to right, #818078, #818078, #818078);
+		background: linear-gradient(to right, transparent, #818078, transparent);
 		position: absolute;
 		left: 0;
 		top: 50%;
@@ -147,7 +140,116 @@
 	font-weight: 600;
 	font-size: 1rem;
 }
-
 .body-facebook footer {
+	background-color: #000;
+}
+
+/* ?? Instagram Styles */
+
+.body-instagram {
+	background-color: var(--white);
+	padding: 0;
+}
+
+.body-instagram .main-header {
+	background: radial-gradient(
+		var(--ig-bg-light-yellow),
+		var(--ig-bg-orange),
+		var(--ig-bg-dark-pink),
+		var(--ig-bg-blue)
+	);
+	margin-bottom: 30px;
+}
+
+.body-instagram .ig-form-container {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	margin: -50px 0;
+}
+
+.ig-form-container .ig-form {
+	width: 400px;
+	height: 500px;
+	flex-direction: column;
+	outline: 1px solid yellow;
+	margin: 10px 0;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 30px;
+}
+
+.ig-form p {
+	font-size: 60px;
+	font-family: 'Balibong', sans-serif;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.ig-form input {
+	width: 100%;
+	height: 50px;
+	border-color: var(--ig-placeholder-bg);
+	background-color: var(--ig-placeholder-bg);
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.ig-form input::placeholder {
+	color: var(--ig-placeholder-text);
+}
+
+.ig-form .ig-login-btn {
+	width: 100%;
+	place-content: center;
+	align-items: center;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--ig-button-blue);
+	color: var(--white);
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.ig-form .hr-container {
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.ig-fb-login-container {
+	justify-content: center;
+	align-content: center;
+	height: 30px;
+	align-items: center;
+	column-gap: 12px;
+}
+
+.ig-fb-login-container .fa-facebook-square {
+	font-size: 1.5em;
+	color: var(--fb-button-blue);
+}
+
+.ig-fb-login-container p,
+.ig-forgot-text p {
+	font-size: 0.9em;
+	color: var(--ig-fb-login-blue);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ig-forgot-text {
+	justify-content: center;
+	align-items: center;
+}
+
+.ig-forgot-text p {
+	font-size: 0.7em;
+}
+
+.body-instagram footer {
 	background-color: #000;
 }
