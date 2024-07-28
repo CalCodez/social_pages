@@ -75,8 +75,8 @@ a {
 .exit-btn {
 	justify-content: center;
 	align-items: center;
-	width: 150px;
-	height: 60px;
+	width: 130px;
+	height: 40px;
 	background-color: #000;
 	border-radius: 8px;
 	box-shadow: 2px 2px 8px 2px var(--project-red-dark);
@@ -106,7 +106,7 @@ a {
 h1 {
 	color: #000;
 	filter: drop-shadow(3px 1px 2px var(--project-red));
-	font-size: 60px;
+	font-size: 50px;
 	font-family: 'tasty';
 	font-family: 'Playwrite AT', cursive;
 }
@@ -124,8 +124,8 @@ h2 {
 }
 
 .profile-pic-container {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	box-shadow: 2px 2px 8px 2px var(--project-red-dark);
 }
