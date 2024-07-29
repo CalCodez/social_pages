@@ -12,6 +12,11 @@
 	padding: 10px 0;
 }
 
+.body-facebook .links-container {
+	margin-right: 80px;
+	width: 80%;
+}
+
 .body-facebook .links-container a:hover {
 	transform: scale(1.09);
 }
@@ -147,9 +152,6 @@
 	font-weight: 600;
 	font-size: 1rem;
 }
-.body-facebook footer {
-	background-color: #000;
-}
 
 /* ?? Instagram Styles */
 
@@ -172,12 +174,15 @@
 	box-shadow: none;
 }
 
+.body-instagram .main-header .fa-person-running {
+	color: var(--ig-bg-purple);
+}
+
 .body-instagram .ig-form-container {
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 	height: fit-content;
-	margin: -50px 0;
 	flex-direction: column;
 }
 
@@ -285,10 +290,6 @@
 	filter: drop-shadow(0.5px 0.5px var(--ig-signup-blue));
 }
 
-.body-instagram footer {
-	background-color: #000;
-}
-
 /* ?? Threads Styles */
 
 .body-threads {
@@ -329,7 +330,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	width: 450px;
-	height: 800px;
+	height: 500px;
 	flex-direction: column;
 	color: var(--white);
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
