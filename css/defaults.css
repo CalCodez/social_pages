@@ -31,9 +31,6 @@
 	--threads-black: #101010;
 	--threads-input-gray: #1e1e1e;
 	--threads-placeholder-text: #777777;
-
-	--sc-yellow: #fffc00;
-	--sc-black: #020202;
 }
 
 * {
@@ -215,21 +212,6 @@ h2 {
 	);
 
 	box-shadow: 2px 2px 10px 5px var(--threads-placeholder-text);
-}
-
-.snapchat-container {
-	background-image: linear-gradient(
-		to right,
-		var(--sc-yellow),
-		var(--sc-black),
-		var(--sc-yellow),
-		var(--sc-black),
-		var(--sc-yellow),
-		var(--sc-yellow),
-		var(--sc-black),
-		var(--sc-yellow)
-	);
-	box-shadow: 2px 2px 10px 5px var(--sc-yellow);
 }
 
 .banner-container {
