@@ -27,13 +27,14 @@
 
 .body-facebook p {
 	color: var(--fb-logo-blue);
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 700;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .body-facebook .fb-login-container {
 	width: 100%;
-	height: 300px;
+	height: auto;
 	justify-content: center;
 	align-self: center;
 	flex-direction: column;
@@ -42,10 +43,10 @@
 }
 
 .fb-login-form {
-	width: 320px;
-	height: 320px;
-	outline: 1px solid black;
+	width: 310px;
+	height: 310px;
 	border-radius: 8px;
+	border: 0.8px solid lightgray;
 	box-shadow: 2px 2px 5px 1px lightgrey;
 	flex-direction: column;
 	justify-content: center;
@@ -57,16 +58,17 @@
 
 .fb-login-form p {
 	color: #000;
-	font-size: 1.2rem;
-	font-weight: 300;
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fb-login-form input {
 	width: 100%;
 	height: 45px;
 	margin-top: 10px;
-	border-radius: 8px;
-	border: 0.1px solid var(--fb-placeholder-gray);
+	border-radius: 5px;
+	border: 0.1px solid var(--ig-input-border);
 }
 
 .fb-login-form input::placeholder {
@@ -78,22 +80,29 @@
 
 .fb-login-form .fb-login-btn {
 	width: 100%;
-	height: 50px;
+	height: 45px;
 	background-color: var(--fb-logo-blue);
 	color: var(--white);
 	justify-content: center;
 	align-items: center;
 	font-size: 1.1rem;
 	font-weight: 550;
-	border-radius: 8px;
+	border-radius: 5px;
 	border: none;
-	margin: 10px 0;
+	margin: 10px 0 15px 0;
 }
 
 .fb-login-form .fb-forgot-text {
 	color: var(--fb-font-blue);
-	margin-bottom: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 0.8rem;
+	font-weight: 400;
 }
+
+.fb-hr {
+	margin: 15px 0 5px 0;
+}
+
 .hr-text {
 	line-height: 1.5em;
 	position: relative;
@@ -125,14 +134,17 @@
 	}
 }
 
+[data-content] {
+	font-size: 0.8em;
+}
+
 .fb-login-form .fb-create-new-btn {
 	margin-top: 10px;
 	justify-content: center;
 	align-items: center;
-	/*justify-self: center;*/
-	width: 60%;
-	height: 50px;
-	border-radius: 8px;
+	width: 55%;
+	height: 45px;
+	border-radius: 5px;
 	border: none;
 	background-color: var(--fb-newAccount-button);
 	color: var(--white);
