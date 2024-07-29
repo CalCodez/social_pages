@@ -31,6 +31,9 @@
 	--threads-black: #101010;
 	--threads-input-gray: #1e1e1e;
 	--threads-placeholder-text: #777777;
+
+	--sc-yellow: #fffc00;
+	--sc-black: #020202;
 }
 
 * {
@@ -311,6 +314,13 @@ footer .footer-contact-container .container {
 
 .fa-facebook {
 	color: var(--fb-logo-blue);
+}
+
+.fa-house {
+	color: var(--project-red-dark);
+}
+.fa-person-running {
+	color: var(--project-red);
 }
 
 .fa-instagram {

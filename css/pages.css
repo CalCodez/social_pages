@@ -20,11 +20,6 @@
 	box-shadow: none;
 }
 
-.body-facebook .fa-house,
-.body-facebook .fa-person-running {
-	color: var(--project-red-dark);
-}
-
 .body-facebook p {
 	color: var(--fb-logo-blue);
 	font-size: 2.5rem;
