@@ -1,7 +1,10 @@
-@media (max-width: 581px) {
+@media (max-width: 700px) {
 	.body-facebook .main-header,
 	.fb-login-container,
-	.body-facebook footer {
+	.body-facebook footer,
+	.body-instagram .main-header,
+	.ig-form-container,
+	.body-instagram footer {
 		display: none;
 	}
 
@@ -34,6 +37,10 @@
 
 	.mobile-logo-container img {
 		border-radius: 50%;
+	}
+
+	.mobile-logo-container .instagram-logo-mobile {
+		height: 60px;
 	}
 
 	.mobile-image-container {
