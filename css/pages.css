@@ -425,3 +425,7 @@
 	color: #818078;
 	font-size: 1.4rem;
 }
+
+.mobile-section {
+	display: none;
+}
