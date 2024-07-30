@@ -25,14 +25,11 @@
         </a>
         <a class="container" href="./threads.html"><i class="fa-brands fa-square-threads"> Threads</i>
         </a>
-
         <a class="container" href="#"><i class="fa-solid fa-person-running"> Exit</i>
         </a>
       </div>
 
     </div>
-
-
     <div class="container fb-login-container">
       <p>facebook</p>
       <form class=" caontainer fb-login-form">
@@ -47,13 +44,25 @@
         </div>
         <button class=" container fb-create-new-btn">Create new account</button>
       </form>
-
     </div>
 
     <section class="container mobile-section">
       <div class="
    container mobile-logo-container">
+
+        <i class="fa-solid fa-bars" id="menu-toggler"></i>
         <img src="/assests/logos/facebook.png" alt="facebook logo">
+        <div class="container " id="mobile-menu">
+          <a class="container" href="/index.html"><i class="fa-solid fa-house"> HOME</i>
+          </a>
+          <a class="container" href="./instagram.html"><i class="fa-brands fa-instagram"> Instagram</i>
+          </a>
+          <a class="container" href="./threads.html"><i class="fa-brands fa-square-threads"> Threads</i>
+          </a>
+          <a class="container" href="#"><i class="fa-solid fa-person-running"> Exit</i>
+          </a>
+        </div>
+
       </div>
       <div class=" container mobile-image-container">
         <img src="/assests/images/Calvin_footer.jpg" alt="calvin">
@@ -65,7 +74,7 @@
       <div class="container mobile-signin-btn-container">
         <button class="container sign-btn">Log in</button>
       </div>
-      <div class="container mobile-logine-another-account-container">
+      <div class="container mobile-login-another-account-container">
         Log into another account
       </div>
       <div class="container mobile-create-new-account-container">
@@ -109,7 +118,22 @@
       </div>
     </footer>
 
-    <script src="/javascript.js"></script>
+    <script>
+      function mobileMenu() {
+        if (
+          document.getElementById("mobile-menu").style.display == "flex"
+        ) {
+          document.getElementById("mobile-menu").style.display = "none";
+        } else {
+          document.getElementById("mobile-menu").style.display = "flex";
+        }
+      }
+      document
+        .getElementById("menu-toggler")
+        .addEventListener("click", mobileMenu);
+    </script>
+
+
   </body>
 
 </html>

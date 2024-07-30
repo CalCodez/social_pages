@@ -12,7 +12,9 @@
 	padding: 10px 0;
 }
 
-.body-facebook .links-container {
+.body-facebook .links-container,
+.body-instagram .links-container,
+.body-threads .links-container {
 	margin-right: 80px;
 	width: 80%;
 }
@@ -168,6 +170,7 @@
 		var(--ig-bg-blue)
 	);
 	margin-bottom: 10px;
+	padding: 10px 0;
 }
 
 .body-instagram .main-header .profile-pic-container {
@@ -312,6 +315,7 @@
 		var(--threads-input-gray),
 		var(--threads-black)
 	);
+	padding: 10px 0;
 }
 
 .body-threads .main-header .profile-pic-container {

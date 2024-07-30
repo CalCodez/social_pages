@@ -1,3 +1,27 @@
+@media (max-width: 768px) {
+	.body-main .main-header {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+
+	.body-main h1 {
+		font-size: 35px;
+	}
+
+	.body-main .social-meadia-section {
+		row-gap: 50px;
+	}
+	.body-main .social-containers {
+		width: 350px;
+	}
+
+	.body-facebook .profile-pic-container,
+	.body-instagram .profile-pic-container,
+	.body-threads .profile-pic-container {
+		display: none;
+	}
+}
+
 @media (max-width: 700px) {
 	.body-facebook .main-header,
 	.fb-login-container,
@@ -13,6 +37,9 @@
 		background-color: white;
 		height: fit-content;
 	}
+	.html-black {
+		background-color: #000;
+	}
 
 	.body-facebook {
 		padding-bottom: 30px;
@@ -25,12 +52,34 @@
 		flex-direction: column;
 		padding: 20px;
 		display: flex;
+		position: relative;
+	}
+	.mobile-section .container {
+		justify-content: center;
+		align-items: center;
+	}
+
+	#menu-toggler {
+		font-size: 2rem;
+		color: #000;
+	}
+
+	#mobile-Menu {
+		flex-direction: column;
+		background-color: var(--white);
+		width: 250px;
+		height: 250px;
+		border: 2px solid lightgrey;
+		position: absolute;
+		font-size: 1.5rem;
+		row-gap: 30px;
+		top: 20px;
+		right: 20px;
+		display: none;
 	}
 
 	.mobile-logo-container {
 		width: 100%;
-		justify-content: center;
-		align-items: center;
 		height: fit-content;
 		margin-bottom: 35px;
 	}
@@ -44,8 +93,6 @@
 	}
 
 	.mobile-image-container {
-		justify-content: center;
-		align-items: center;
 		width: 100%;
 		height: fit-content;
 		margin-bottom: 20px;
@@ -60,8 +107,6 @@
 	}
 
 	.mobile-name-container {
-		justify-content: center;
-		align-items: center;
 		width: 100%;
 		height: fit-content;
 		font-size: 1.8rem;
@@ -72,8 +117,6 @@
 	}
 
 	.mobile-signin-btn-container {
-		justify-content: center;
-		align-items: center;
 		width: 100%;
 		height: fit-content;
 		margin-bottom: 20px;
@@ -86,15 +129,11 @@
 		background-color: var(--fb-logo-blue);
 		border-radius: 20px;
 		border: none;
-		justify-content: center;
-		align-items: center;
 		font-size: 1.2rem;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 
-	.mobile-logine-another-account-container {
-		justify-content: center;
-		align-items: center;
+	.mobile-login-another-account-container {
 		width: 100%;
 		height: 20px;
 		font-size: 1.2rem;
@@ -102,10 +141,19 @@
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		margin-bottom: 180px;
 	}
+	.mobile-login-another-account-container .ig-login-another-account-btn {
+		width: 100%;
+		height: 60px;
+		border-radius: 20px;
+		margin-top: 20px;
+		background-color: transparent;
+		border: 3px solid lightgrey;
+		font-weight: 600;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 1.2rem;
+	}
 
 	.mobile-create-new-account-container {
-		justify-content: center;
-		align-items: center;
 		margin-bottom: 20px;
 	}
 
@@ -113,13 +161,29 @@
 		width: 100%;
 		height: 60px;
 		border: 3px solid var(--fb-logo-blue);
-		justify-content: center;
-		align-items: center;
+
 		border-radius: 20px;
 		color: var(--fb-logo-blue);
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		font-size: 1.2rem;
 		background-color: transparent;
 		padding: 8px;
+	}
+
+	.body-threads .main-header {
+		display: none;
+	}
+
+	.body-threads {
+		padding-top: 60px;
+	}
+	.body-threads #menu-toggler {
+		color: var(--project-red-dark);
+	}
+
+	.body-threads #mobile-menu {
+		background-color: #000;
+		border: none;
+		padding: 5px;
 	}
 }

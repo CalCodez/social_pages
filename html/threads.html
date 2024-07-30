@@ -1,4 +1,4 @@
-<html lang="en">
+<html class="html-black" lang="en">
 
   <head>
     <meta charset="UTF-8">
@@ -13,6 +13,18 @@
   </head>
 
   <body class="body-threads">
+    <i class="fa-solid fa-bars" id="menu-toggler"></i>
+    <div class="container " id="mobile-menu">
+      <a class="container" href="/index.html"><i class="fa-solid fa-house"> HOME</i>
+        <a class="container" href="./facebook.html"><i class="fa-brands fa-facebook"> Faebook</i>
+        </a>
+        <a class="container" href="./instagram.html"><i class="fa-brands fa-instagram"> Instagram</i>
+        </a>
+      </a>
+      <a class="container" href="#"><i class="fa-solid fa-person-running"> Exit</i>
+      </a>
+    </div>
+
     <img class="threads-bg-image" src="/assests/logos/Threads-app-logo.webp" alt="threads logo">
     <div class="container main-header">
       <div class="container profile-pic-container">
@@ -101,7 +113,20 @@
     </footer>
 
 
-    <script src="/javascript.js"></script>
+    <script>
+      function mobileMenu() {
+        if (
+          document.getElementById("mobile-menu").style.display == "flex"
+        ) {
+          document.getElementById("mobile-menu").style.display = "none";
+        } else {
+          document.getElementById("mobile-menu").style.display = "flex";
+        }
+      }
+      document
+        .getElementById("menu-toggler")
+        .addEventListener("click", mobileMenu);
+    </script>
 
   </body>
 
