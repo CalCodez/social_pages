@@ -179,6 +179,7 @@
 	}
 	.body-threads #menu-toggler {
 		color: var(--project-red-dark);
+		display: flex;
 	}
 
 	.body-threads #mobile-menu {

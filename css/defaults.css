@@ -76,6 +76,7 @@ body {
 	right: 35px;
 	z-index: 5;
 	cursor: pointer;
+	display: none;
 }
 
 .full-site-modal {
@@ -120,6 +121,10 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	transform: scale(1.09);
 }
 
 .exit-btn {

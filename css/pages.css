@@ -19,10 +19,6 @@
 	width: 80%;
 }
 
-.body-facebook .links-container a:hover {
-	transform: scale(1.09);
-}
-
 .body-facebook .profile-pic-container {
 	box-shadow: none;
 }
@@ -299,6 +295,10 @@
 	padding: 0;
 	position: relative;
 	background-color: transparent;
+}
+
+.body-threads #mobile-menu {
+	display: none;
 }
 
 .body-threads .threads-bg-image {
